@@ -5,10 +5,11 @@
 ### URL 
 - Enter this in address bar:
 ```
-api/signup  => To signup new user
-api/login   => To login 
-api/users   => To user information
+api/signup   => To signup new user
+api/login    => To login user and create cookies
+api/users    => To user information
 api/delete/1 => Delete the user with id 1
 api/update/1 => Update the user with id 1
+api/logout   => Delete cookies and redirect to login page
 ```
 
